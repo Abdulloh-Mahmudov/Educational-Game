@@ -28,4 +28,9 @@ public class MainMenu : MonoBehaviour
         Time.timeScale = 1;
         _pauseMenu.SetActive(false);
     }
+
+    public void ExitApplication()
+    {
+        Application.Quit();
+    }
 }

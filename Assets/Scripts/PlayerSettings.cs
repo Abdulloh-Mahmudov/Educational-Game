@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerSettings : MonoBehaviour
 {
-    [SerializeField] private int _playerProfile;
-    [SerializeField] private int _PuzzleScore;
+    [SerializeField] Toggle _soundToggle;
+    [SerializeField] GameObject _sound;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,6 +19,8 @@ public class PlayerSettings : MonoBehaviour
         {
             Debug.Log("Run already performed before");
         }
+
+        SoundSettings();
     }
 
     // Update is called once per frame
@@ -49,8 +52,41 @@ public class PlayerSettings : MonoBehaviour
         if (PlayerPrefs.HasKey(profile + "_TileScore"))
             PlayerPrefs.DeleteKey(profile + "_TileScore");
 
+        if (!PlayerPrefs.HasKey("SoundOn"))
+            PlayerPrefs.SetInt("SoundOn", 1);
+
+
         PlayerPrefs.Save();
 
         Debug.Log(profile + " has been deleted");
+    }
+
+    public void SoundToggle()
+    {
+        bool soundOn = _soundToggle.isOn;
+
+        if(soundOn == true)
+        {
+            PlayerPrefs.SetInt("SoundOn", 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("SoundOn", 0);
+        }
+        PlayerPrefs.Save();
+        _sound.SetActive(soundOn);
+    }
+
+    public void SoundSettings()
+    {
+        if(PlayerPrefs.GetInt("SoundOn") == 1)
+        {
+            _soundToggle.isOn = true;
+        }
+        else
+        {
+            _soundToggle.isOn = false;
+        }
+        SoundToggle();
     }
 }
