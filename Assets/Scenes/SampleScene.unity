@@ -7556,7 +7556,7 @@ MonoBehaviour:
   _temproraryCover: {fileID: 663473255}
   _timerText: {fileID: 355844257}
   _scoreText: {fileID: 1179934109}
-  _timerTimeOrigin: 15
+  _timerTimeOrigin: 180
   _correctTiles: 0
   _scoreNumber: 0
   _next: {fileID: 843940900}
