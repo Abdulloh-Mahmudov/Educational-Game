@@ -1,0 +1,607 @@
+fileFormatVersion: 2
+guid: b50c23b824bfc8d4f96ec23484ef3e25
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 413
+        width: 598
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 420ad93fdc134b0479875e24f8993795
+      internalID: -209378651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_1
+      rect:
+        serializedVersion: 2
+        x: 683
+        y: 413
+        width: 192
+        height: 272
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 105f259120655b0498a5fd763dfbd6f7
+      internalID: 1293671953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_2
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeff1705c0d96024a919a993144e57c5
+      internalID: 1593744733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47ce69c5753af8a4d85c353460338549
+      internalID: 1406222164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_4
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6121c3e41e249d46bf5833076be5c48
+      internalID: 1990709310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_5
+      rect:
+        serializedVersion: 2
+        x: 1279
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec908857ec01e640b45a68781af53d0
+      internalID: 1743020581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_6
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e87968d05bff7f4398b705ac68fc43f
+      internalID: -779401789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_7
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 594
+        width: 93
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad2aa00f3d7cbd542ac0dd894a6648c6
+      internalID: -1312614905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_8
+      rect:
+        serializedVersion: 2
+        x: 1609
+        y: 594
+        width: 92
+        height: 91
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c96f1043bd398b42b5f134df023a1dc
+      internalID: -313357865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_9
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 596
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29fa795ff1e46174f98e32622f4618b2
+      internalID: 938199524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_10
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 596
+        width: 79
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61546ea84fdc0054da7dab35c2ad2855
+      internalID: 229818287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_11
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 434
+        width: 308
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788f8ea4d7fb1174cb9220be1bb399b0
+      internalID: 1120094107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_12
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 256
+        width: 268
+        height: 305
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3598e6069006f439f01b8fcd04c614
+      internalID: 1446459351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_13
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 434
+        width: 309
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8d9130111839848aa394e889eada42
+      internalID: -653339830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_14
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 92
+        width: 385
+        height: 301
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba0e8b66ffb60d498adce97aa4f1a47
+      internalID: -305987577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_15
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 93
+        width: 286
+        height: 277
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af3153bb2969f54d925efb73921e7ed
+      internalID: 869103187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_16
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 310
+        width: 306
+        height: 97
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a48f766ffeec64c9e543f7c2363e3a
+      internalID: -1631616843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_17
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 297
+        width: 307
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a74cb90e9663f418147d9994dec9d6
+      internalID: -1832205878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_18
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 176
+        width: 599
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58566fb5ef686e2458b17a5b52d50ebd
+      internalID: 726865179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_19
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 195
+        width: 310
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6142b46e38428140ad3ea4ce7ac2bb9
+      internalID: 1966747665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_20
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 101
+        width: 599
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3fdcda09ebaa1449c31ac9cf2d5564
+      internalID: 16845544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: game-ui-menu-interface-scrolls-parchments_21
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 103
+        width: 307
+        height: 58
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18f224d516e72b746a97697e1870dfbe
+      internalID: 1530615955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      game-ui-menu-interface-scrolls-parchments_0: -209378651
+      game-ui-menu-interface-scrolls-parchments_1: 1293671953
+      game-ui-menu-interface-scrolls-parchments_10: 229818287
+      game-ui-menu-interface-scrolls-parchments_11: 1120094107
+      game-ui-menu-interface-scrolls-parchments_12: 1446459351
+      game-ui-menu-interface-scrolls-parchments_13: -653339830
+      game-ui-menu-interface-scrolls-parchments_14: -305987577
+      game-ui-menu-interface-scrolls-parchments_15: 869103187
+      game-ui-menu-interface-scrolls-parchments_16: -1631616843
+      game-ui-menu-interface-scrolls-parchments_17: -1832205878
+      game-ui-menu-interface-scrolls-parchments_18: 726865179
+      game-ui-menu-interface-scrolls-parchments_19: 1966747665
+      game-ui-menu-interface-scrolls-parchments_2: 1593744733
+      game-ui-menu-interface-scrolls-parchments_20: 16845544
+      game-ui-menu-interface-scrolls-parchments_21: 1530615955
+      game-ui-menu-interface-scrolls-parchments_3: 1406222164
+      game-ui-menu-interface-scrolls-parchments_4: 1990709310
+      game-ui-menu-interface-scrolls-parchments_5: 1743020581
+      game-ui-menu-interface-scrolls-parchments_6: -779401789
+      game-ui-menu-interface-scrolls-parchments_7: -1312614905
+      game-ui-menu-interface-scrolls-parchments_8: -313357865
+      game-ui-menu-interface-scrolls-parchments_9: 938199524
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
